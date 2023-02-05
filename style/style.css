@@ -74,7 +74,7 @@ h6 {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 100%;
+    width: 100%;
 }
 
 .sub__container {
@@ -83,9 +83,9 @@ h6 {
     flex-direction: column;
     align-content: center;
     align-items: center;
-    max-width: 100%;
+    width: 100%;
     background-image: url(../images/bg-header-desktop.png);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     gap: 8rem;
 }
@@ -97,7 +97,7 @@ h6 {
     flex-direction: column;
     align-items: center;
     align-content: center;
-    padding-top: 4rem;
+    padding-top: 12rem;
     padding-bottom: 4rem;
     gap: 2rem;
 }
